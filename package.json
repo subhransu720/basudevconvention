@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm run optimize-images",
     "start": "next start",
     "lint": "next lint",
     "optimize-images": "node scripts/optimize-images.js",
-    "vercel-build": "next build"
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "framer-motion": "^11.18.2",
