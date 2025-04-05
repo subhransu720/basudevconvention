@@ -1,0 +1,22 @@
+{
+  "name": "Vasudev Convention",
+  "short_name": "Vasudev",
+  "description": "Premier wedding and event venue offering luxury facilities and professional services.",
+  "start_url": "https://vasudevconvention.com",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8a2be2",
+  "icons": [
+    {
+      "src": "/images/vasudev-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/vasudev-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 
